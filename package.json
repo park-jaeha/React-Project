@@ -1,11 +1,13 @@
 {
   "name": "hello",
-  "version": "0.1.0",
+  "version": "hello",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "eject": "^0.0.4",
+    "express": "^4.17.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.0.0",
@@ -35,5 +37,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "hello",
+  "main": "index.js",
+  "repository": "https://github.com/park-jaeha/React-Project.git",
+  "author": "park-jaeha <jaeha1477@naver.com>",
+  "license": "MIT"
 }
