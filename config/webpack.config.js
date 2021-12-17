@@ -318,13 +318,19 @@ module.exports = function (webpackEnv) {
         }),
         ...(modules.webpackAliases || {}),
       },
-      devServer: {
-        port: 4000, // 혹은 자신이 설정한 포트번호
-        open: true,
-        proxy: {
-            "/": "http://localhost"
-        }
-    },
+    //   devServer: {
+    //     port: 4000, // 혹은 자신이 설정한 포트번호
+    //     open: true,
+    //     proxy: {
+    //         "/api": "http://localhost"
+    //     },
+    //     contentBase:path.join(__dirname,'public'),
+    //     compress :true,
+    //     historyApiFallback:true,
+    //     hot:true,
+    //     https:false,
+    //     noinfo:true,
+    // },
       plugins: [
         // Prevents users from importing files from outside of src/ (or node_modules/).
         // This often causes confusion because we only process files within src/ with babel.

@@ -13,23 +13,23 @@ class App extends Component{
             host:'',
         }
     }
-    componentDidMount(){
-        this._getHost();
-    }
+    // componentDidMount(){
+    //     this._getHost();
+    // }
 
-    _getHost = async()=>{
-        const res = await Axios.get('/api/host');
-        this.setState({host:res.data.host});
-    }
+    // _getHost = async()=>{
+    //     const res = await Axios.get('/api/host');
+    //     this.setState({host:res.data.host});
+    // }
     render(){
         return(
             <div className='App'>
-                <h3>Welcome to <u>{state.host}</u> Blog</h3>
-                {/* <Router>
+                {/* <h3>Welcome to <u>{state.host}</u> Blog</h3> */}
+                <Router>
                     <Nav />
                     <Route exact path ="/" component ={Home} /> 
                     <Route path ="/main" component ={Main}></Route>
-                </Router> */}
+                </Router>
             </div>
         );
     }
