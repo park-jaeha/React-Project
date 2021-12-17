@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
+//import Home from './screens/DetailScreens/Home';
 /** import Screens */
 //import {Home, Main} from './screens/DetailScreens/Index';
 import HomePage from "./screens/DetailScreens/Home";
@@ -9,11 +10,12 @@ import Nav from "./screens/DetailScreens/Nav";
 const App= ()=> {
     return(
         <div className='App'>
-            <BrowserRouter>
-                <Nav />
-                <Route exact path ="/"><HomePage /></Route> 
+            {/* <HomePage></HomePage> */}
+            <Router>
+                <Route path ="/" component ={HomePage} /> 
                 <Route path ="/main"> <MainPage /></Route>
-            </BrowserRouter>
+            </Router>
+            {/* <HomePage /> */}
         </div>
     );
 };
