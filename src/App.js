@@ -5,6 +5,8 @@ import { Axios } from 'axios';
 /** import Screens */
 import {Home, Main, Test} from './screens/DetailScreens/Index';
 import Navi from "./screens/DetailScreens/Nav";
+/** Component import */
+import ControlledCarousel from './screens/Component/ControlledCarousel';
 
 const App =() =>{
 
@@ -25,14 +27,15 @@ const App =() =>{
     return(
         <>
         <header>
-        <Navi />
+            <Navi />
         </header>
         <div className='App'>
-        <Router>
-            <Route exact path ="/home" component ={Home} />
-            <Route exact path ="/test" component ={Test} /> 
-            <Route path ="/main" component ={Main}></Route>
-        </Router>
+            <Router>
+                <Route exact path ="/home" component ={Home} />
+                <Route exact path ="/test" component ={Test} /> 
+                <Route path ="/main" component ={Main}></Route>
+                <Route path ="/1" component ={ControlledCarousel}></Route>
+            </Router>
         </div>
         </>
     );
