@@ -1,8 +1,6 @@
 import React from 'react';
 import {Navbar, Nav, Container, Form, Button, FormControl, NavDropdown} from 'react-bootstrap';
 
-import ControlledCarousel from '../Component/ControlledCarousel';
-
 const Navi = () => (
     <>
         <Navbar bg="dark" variant ="dark">
@@ -12,7 +10,7 @@ const Navi = () => (
                 <Nav.Link href ="/main">main</Nav.Link>
                 <Nav.Link href ="/test">test</Nav.Link>
                 <NavDropdown title="Info" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="/1" component ={ControlledCarousel}>test1</NavDropdown.Item>
+                    <NavDropdown.Item href="/1">test1</NavDropdown.Item>
                     <NavDropdown.Item href="/2">test2</NavDropdown.Item>
                     <NavDropdown.Item href="/3">test3</NavDropdown.Item>
                 </NavDropdown>
