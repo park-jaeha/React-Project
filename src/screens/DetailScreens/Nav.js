@@ -1,15 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Navbar, Nav, Container, Form, Button, FormControl, NavDropdown} from 'react-bootstrap';
 
-const Nav = () => (
-    <nav>
-        <h3>This is Logo</h3>
-        <ul>
-            <li><Link to ='/'>test</Link></li>
-            <li><Link to ='/main'>main</Link></li>
-            <li>Info</li>
-        </ul>
-    </nav>
+
+const Navi = () => (
+    <>
+        <Navbar bg="dark" variant ="dark">
+            <Container>
+            <Navbar.Brand href = "/home">This is home</Navbar.Brand>
+            <Nav className="me-auto">
+                <Nav.Link href ="/test">test</Nav.Link>
+                <Nav.Link href ="/main">main</Nav.Link>
+                <li>Info</li>
+            </Nav>
+            </Container>
+        </Navbar>
+        <br />
+    </>
 );
 
-export default Nav;
+export default Navi;
