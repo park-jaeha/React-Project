@@ -39,7 +39,7 @@ function ControlledCarousel() {
         <img
             style = {{height:"400px", backgroundColor:"black"}}
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src="ico1.ico"
             alt="Third slide"
         />
 
