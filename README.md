@@ -2,4 +2,4 @@
 
 - JH
 
-- url : jh-blogtest.netlify.app
+- url : jh-blogtest.netlify.app/home
