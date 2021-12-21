@@ -24,7 +24,7 @@ function ControlledCarousel() {
         </Carousel.Item>
         <Carousel.Item>
         <img
-            style ={{height:"600px" , backgorundColor:"black"}}
+            style ={{height:"600px" , backgroundColor:"black"}}
             className="d-block w-100"
             src="ico1.ico"
             alt="Second slide"
