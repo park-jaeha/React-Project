@@ -12,6 +12,7 @@ function ControlledCarousel() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
         <img
+            style ={{height:"400px", backgroundColor:"black"}}
             className="d-block w-100"
             src="logo192.png"
             alt="First slide"
@@ -23,7 +24,7 @@ function ControlledCarousel() {
         </Carousel.Item>
         <Carousel.Item>
         <img
-            style ={{height:"300px"}}
+            style ={{height:"400px", backgroundColor :"black"}}
             className="d-block w-100"
             src="ico1.ico"
             alt="Second slide"
@@ -36,6 +37,7 @@ function ControlledCarousel() {
         </Carousel.Item>
         <Carousel.Item>
         <img
+            style = {{height:"400px", backgroundColor:"black"}}
             className="d-block w-100"
             src="holder.js/800x400?text=Third slide&bg=20232a"
             alt="Third slide"
