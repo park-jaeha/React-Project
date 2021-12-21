@@ -7,7 +7,7 @@ const Navi = () => (
         <Navbar.Brand href = "/home" style ={{marginLeft:15}}>JH's Test</Navbar.Brand>
             {/* <Container> */}
             <Nav className="me-auto">
-                <Nav.Link href ="jh-blogtest.netlify.app/main">main</Nav.Link>
+                <Nav.Link href ="/main">main</Nav.Link>
                 <Nav.Link href ="/test">test</Nav.Link>
                 <NavDropdown title="Info" id="basic-nav-dropdown">
                     <NavDropdown.Item href="/1">test1</NavDropdown.Item>
