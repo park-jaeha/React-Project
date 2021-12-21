@@ -28,7 +28,6 @@ const App =() =>{
         <>
         <header>
             <Navi />
-            <Home />
         </header>
         <div className='App'>
             <Router>
