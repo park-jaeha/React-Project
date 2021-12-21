@@ -12,7 +12,7 @@ function ControlledCarousel() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
         <img
-            style ={{height:"400px", backgroundColor:"black"}}
+            style ={{height:"400px"}}
             className="d-block w-100"
             src="desk.jpg"
             alt="First slide"
