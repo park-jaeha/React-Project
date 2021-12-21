@@ -1,3 +1,5 @@
 # React blog study
 
--JH
+- JH
+
+- url : jh-blogtest.netlify.app
