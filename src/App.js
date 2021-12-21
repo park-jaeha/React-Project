@@ -31,10 +31,10 @@ const App =() =>{
         </header>
         <div className='App'>
             <Router>
-                <Route exact path ="https://jh-blogtest.netlify.app/home" component ={Home} />
-                <Route exact path ="https://jh-blogtest.netlify.app/test" component ={Test} /> 
-                <Route path ="https://jh-blogtest.netlify.app/main" component ={Main}></Route>
-                <Route path ="https://jh-blogtest.netlify.app/1" component ={ControlledCarousel}></Route>
+                <Route exact path ="jh-blogtest.netlify.app/home" component ={Home} />
+                <Route exact path ="jh-blogtest.netlify.app/test" component ={Test} /> 
+                <Route path ="jh-blogtest.netlify.app/main" component ={Main}></Route>
+                <Route path ="jh-blogtest.netlify.app/1" component ={ControlledCarousel}></Route>
             </Router>
         </div>
         </>
