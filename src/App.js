@@ -31,7 +31,7 @@ const App =() =>{
         </header>
         <div className='App'>
             <Router>
-                <Route exact path ="jh-blogtest.netlify.app/home" component ={Home} />
+                <Route exact path ="/home" component ={Home} />
                 <Route exact path ="jh-blogtest.netlify.app/test" component ={Test} /> 
                 <Route path ="jh-blogtest.netlify.app/main" component ={Main}></Route>
                 <Route path ="jh-blogtest.netlify.app/1" component ={ControlledCarousel}></Route>
