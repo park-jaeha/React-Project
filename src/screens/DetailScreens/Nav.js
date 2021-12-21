@@ -4,7 +4,7 @@ import {Navbar, Nav, Container, Form, Button, FormControl, NavDropdown} from 're
 const Navi = () => (
     <>
         <Navbar bg="dark" variant ="dark">
-        <Navbar.Brand href = "/home" style ={{marginLeft:15}}>JH's Test</Navbar.Brand>
+        <Navbar.Brand href = "/" style ={{marginLeft:15}}>JH's Test</Navbar.Brand>
             {/* <Container> */}
             <Nav className="me-auto">
                 <Nav.Link href ="/main">main</Nav.Link>

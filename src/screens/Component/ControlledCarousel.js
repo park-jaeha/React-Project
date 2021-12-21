@@ -14,7 +14,7 @@ function ControlledCarousel() {
         <img
             style ={{height:"600px"}}
             className="d-block w-100"
-            src="desk.jpg"
+            src="img1.jpg"
             alt="First slide"
         />
         <Carousel.Caption>
@@ -24,9 +24,9 @@ function ControlledCarousel() {
         </Carousel.Item>
         <Carousel.Item>
         <img
-            style ={{height:"600px" , backgroundColor:"black"}}
+            style ={{height:"600px" }}
             className="d-block w-100"
-            src="ico1.ico"
+            src="desk.jpg"
             alt="Second slide"
         />
 

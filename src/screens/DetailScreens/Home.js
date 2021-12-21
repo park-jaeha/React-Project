@@ -1,12 +1,18 @@
 import React from 'react';
-
+import background from './../../Image/img1.jpg';
 
 const Home = () =>{
 
     return(
-        // <div>
+        <div className='Home'>
             <h3>Welcome to JH's Blog</h3>
-        // </div>
+            <img
+                style ={{height:"1000px", width : "100%", opacity:0.5}}
+                src={background}
+                alt="First slide"
+            />
+            {/* </img> */}
+        </div>
     );
 };
 

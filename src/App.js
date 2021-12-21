@@ -31,7 +31,7 @@ const App =() =>{
         </header>
         <div className='App'>
             <Router>
-                <Route path ="/home" component ={Home} />
+                <Route exact path ="/" component ={Home} />
                 <Route exact path ="/test" component ={Test} /> 
                 <Route path ="/main" component ={Main}></Route>
                 <Route path ="/1" component ={ControlledCarousel}></Route>
