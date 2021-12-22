@@ -1,5 +1,5 @@
-# React blog study
+# React dashboard study
 
 - JH
 
-- url : jh-blogtest.netlify.app/home
+- UI -> creativetim 무료 템플릿 사용
