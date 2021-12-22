@@ -21,7 +21,7 @@ function User() {
           <Col md="8">
             <Card>
               <Card.Header>
-                <Card.Title as="h4">Edit Profile</Card.Title>
+                <Card.Title as="h4">프로필 수정</Card.Title>
               </Card.Header>
               <Card.Body>
                 <Form>
@@ -41,7 +41,7 @@ function User() {
                       <Form.Group>
                         <label>Username</label>
                         <Form.Control
-                          defaultValue="michael23"
+                          defaultValue="Jaeha"
                           placeholder="Username"
                           type="text"
                         ></Form.Control>
@@ -64,7 +64,7 @@ function User() {
                       <Form.Group>
                         <label>First Name</label>
                         <Form.Control
-                          defaultValue="Mike"
+                          defaultValue="Jaeha"
                           placeholder="Company"
                           type="text"
                         ></Form.Control>
@@ -74,7 +74,7 @@ function User() {
                       <Form.Group>
                         <label>Last Name</label>
                         <Form.Control
-                          defaultValue="Andrew"
+                          defaultValue="Park"
                           placeholder="Last Name"
                           type="text"
                         ></Form.Control>
@@ -170,9 +170,9 @@ function User() {
                       className="avatar border-gray"
                       src={require("assets/img/faces/face-3.jpg").default}
                     ></img>
-                    <h5 className="title">Mike Andrew</h5>
+                    <h5 className="title">Jaeha Park</h5>
                   </a>
-                  <p className="description">michael24</p>
+                  <p className="description">jhpark</p>
                 </div>
                 <p className="description text-center">
                   "Lamborghini Mercy <br></br>
