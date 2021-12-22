@@ -5,7 +5,7 @@ const Navi = () => (
     <>
         <Navbar bg="dark" variant ="dark" expand ="lg">
         <Navbar.Brand href = "/" style ={{marginLeft:15}}>JH's Test</Navbar.Brand>
-            <Container>
+            {/* <Container> */}
             <Nav className="me-auto">
                 <Nav.Link href ="/main">main</Nav.Link>
                 <Nav.Link href ="/test">test</Nav.Link>
@@ -15,7 +15,7 @@ const Navi = () => (
                     <NavDropdown.Item href="/3">test3</NavDropdown.Item>
                 </NavDropdown>
             </Nav>
-            </Container>
+            {/* </Container> */}
         </Navbar>
     </>
 );

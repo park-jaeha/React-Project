@@ -8,6 +8,8 @@ import Navi from "./screens/DetailScreens/Nav";
 import Project from './views/Dashboard';
 import Map from './views/Maps';
 import TableList from './views/TableList';
+import UserProfile from './views/UserProfile';
+import Typography from './views/Typography';
 /** Component import */
 import ControlledCarousel from './screens/Component/ControlledCarousel';
 
@@ -36,8 +38,8 @@ const App =() =>{
             <Router>
                 <Switch>
                     <Route exact path ="/" component ={Home} />
-                    <Route exact path ="/test" component ={Test} /> 
-                    <Route path ="/main" component ={Main}></Route>
+                    <Route path ="/main" component ={UserProfile}></Route>
+                    <Route exact path ="/test" component ={Typography} /> 
                     <Route path ="/1" component ={ControlledCarousel}></Route>
                     <Route path ="/2" component ={Project}></Route>
                     <Route path ="/3" component = {TableList}/>
